@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let backgroudImage = UIImageView(frame: UIScreen.main.bounds)
         backgroudImage.image = UIImage(named: "Image")
-        backgroudImage.contentMode = .scaleAspectFill // Adjust to your preference
+        backgroudImage.contentMode = .scaleAspectFill
         backgroudImage.clipsToBounds = true
 
             // 4. Add the image view to the view controller's view

@@ -9,6 +9,26 @@ import UIKit
 
 class bookRoomViewController: UIViewController {
 
+    @IBOutlet weak var custmerNameLable: UILabel!
+    @IBOutlet weak var custmorNameInput: UITextField!
+    
+    @IBOutlet weak var custmorAddressLable: UILabel!
+    
+    @IBOutlet weak var custmorAddressInput: UITextField!
+    
+    @IBOutlet weak var numberOfDaysLable: UILabel!
+    
+    @IBOutlet weak var numberOfDaysInput: UITextField!
+    
+    @IBOutlet weak var roomNumberLable: UILabel!
+    @IBOutlet weak var roomNumberInput: UITextField!
+    
+    @IBOutlet weak var hotelNameLable: UILabel!
+    @IBOutlet weak var hotelNameInput: UITextField!
+    
+    @IBOutlet weak var phoneNumberLable: UILabel!
+    @IBOutlet weak var phoneNumberInput: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let backgroudImage = UIImageView(frame: UIScreen.main.bounds)
